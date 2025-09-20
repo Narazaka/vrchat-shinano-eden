@@ -17,6 +17,9 @@
     },
     "net.narazaka.vrchat.tmp-fallback-fonts-jp": {
       "version": "1.0.2"
+    },
+    "net.ureishi.qvpen": {
+      "version": "3.3.8"
     }
   },
   "locked": {
@@ -55,6 +58,12 @@
     "net.narazaka.vrchat.tmp-fallback-fonts-jp": {
       "version": "1.0.2",
       "dependencies": {}
+    },
+    "net.ureishi.qvpen": {
+      "version": "3.3.8",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.5.0"
+      }
     }
   }
 }
