@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "com.vrchat.worlds": {
+      "version": "3.8.2"
+    },
+    "net.narazaka.vrchat.quiz-system": {
+      "version": "0.2.1"
+    },
+    "net.narazaka.vrchat.fade-teleport": {
+      "version": "0.1.1"
+    }
+  },
+  "locked": {
+    "com.vrchat.base": {
+      "version": "3.8.2",
+      "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.8.2",
+      "dependencies": {
+        "com.vrchat.base": "3.8.2"
+      }
+    },
+    "net.narazaka.vrchat.quiz-system": {
+      "version": "0.2.1",
+      "dependencies": {
+        "com.vrchat.worlds": ">=3.7.5"
+      }
+    },
+    "net.narazaka.vrchat.fade-teleport": {
+      "version": "0.1.1",
+      "dependencies": {
+        "com.vrchat.worlds": ">=3.7.5"
+      }
+    }
+  }
+}
