@@ -418,6 +418,10 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 641482368076905025, guid: 043823e1ca562584b82ea5ada4910a33, type: 3}
+    - target: {fileID: 810031503697448175, guid: 043823e1ca562584b82ea5ada4910a33, type: 3}
+      propertyPath: contentType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3961908359326141641, guid: 043823e1ca562584b82ea5ada4910a33, type: 3}
       propertyPath: unityVersion
       value: 2022.3.22f1
