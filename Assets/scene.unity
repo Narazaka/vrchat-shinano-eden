@@ -7660,6 +7660,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 7265716118826214883, guid: b0cf90c18247f154094021e2de9bf529, type: 2}
+    - target: {fileID: 717671011987620220, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
+      propertyPath: m_ReflectLayers.m_Bits
+      value: 262656
+      objectReference: {fileID: 0}
     - target: {fileID: 782241871859746808, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -7674,7 +7678,7 @@ PrefabInstance:
       objectReference: {fileID: 1448625067236046572, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
     - target: {fileID: 1776497059037320600, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
       propertyPath: _targetNumber
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1776497059037320600, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
       propertyPath: serializationData.Prefab
@@ -7739,6 +7743,10 @@ PrefabInstance:
     - target: {fileID: 3805333908273598368, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136434825475751484, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
+      propertyPath: _targetNumber
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4136434825475751484, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
       propertyPath: serializationData.Prefab
@@ -7909,9 +7917,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7830018402314104534, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
     - target: {fileID: 7830018402314104534, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
-      propertyPath: _profileList.Array.data[1]
+      propertyPath: _profileList.Array.data[0]
       value: 
       objectReference: {fileID: 1177509485}
+    - target: {fileID: 7830018402314104534, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
+      propertyPath: _profileList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1177509486}
     - target: {fileID: 7830018402314104534, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
       propertyPath: _profileList.Array.data[2]
       value: 
@@ -7973,6 +7985,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1177509482}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516138741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2467169b8cb34fa44bb9e8d142e7dc69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1177509486 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1253013327939876332, guid: 435e9b92867c22a4793d90056d2c6913, type: 3}
+  m_PrefabInstance: {fileID: 1177509482}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783729069}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2467169b8cb34fa44bb9e8d142e7dc69, type: 3}
@@ -8878,6 +8901,11 @@ PrefabInstance:
     - target: {fileID: 467691427896882779, guid: 0507200247eee8043a0e081c6f605663, type: 3}
       propertyPath: playListUrls.Array.data[0].url
       value: https://www.youtube.com/watch?v=4pqJA7aiVJc
+      objectReference: {fileID: 0}
+    - target: {fileID: 467691427896882779, guid: 0507200247eee8043a0e081c6f605663, type: 3}
+      propertyPath: playListEntryTitles.Array.data[0]
+      value: "\u30D1\u30B9\u30C6\u30EB\u30CF\u30A6\u30B9 @ \u30D5\u30EA\u30FCBGM
+        DOVA-SYNDROME"
       objectReference: {fileID: 0}
     - target: {fileID: 467691427896882779, guid: 0507200247eee8043a0e081c6f605663, type: 3}
       propertyPath: playListPlayerIndex.Array.data[0]
