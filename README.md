@@ -1,1 +1,6 @@
-https://vpm.mimylab.com/ と https://vpm.narazaka.net へアクセスして「Add To VCC」してからプロジェクト開いてください
+- https://vpm.mimylab.com/
+- https://vpm.narazaka.net
+- https://vpm.ureishi.net/install
+- https://xtlcdn.github.io/vpm/
+
+へアクセスして「Add To VCC」してからプロジェクト開いてください
