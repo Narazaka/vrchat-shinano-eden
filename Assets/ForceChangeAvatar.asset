@@ -41,7 +41,7 @@ MonoBehaviour:
     JUMP, 0x000000DC\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onEnable\r\n   
     \r\n    _onEnable:\r\n    \r\n        PUSH, __instance_4\r\n        PUSH, __eventName_1\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n    .export _ForceSetAvatar\r\n    \r\n    _ForceSetAvatar:\r\n   
+    JUMP, 0xFFFFFFFC\r\n    \r\n    .export ForceSetAvatar\r\n    \r\n    ForceSetAvatar:\r\n   
     \r\n        PUSH, AvatarPedestal\r\n        PUSH, __instance_5\r\n        COPY\r\n       
     PUSH, __instigator_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __instance_5\r\n        PUSH, __instigator_0\r\n        EXTERN, \"VRCSDK3ComponentsVRCAvatarPedestal.__SetAvatarUse__VRCSDKBaseVRCPlayerApi__SystemVoid\"\r\n       
@@ -77,7 +77,8 @@ MonoBehaviour:
       nodeUIDs:
       - 5f7461f3-94fd-4d59-bcaf-a45c740715d5|0
       - 891ddfee-7293-4d0b-b13c-7b483b3366f5|0
-      flowUIDs: []
+      flowUIDs:
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -156,7 +157,7 @@ MonoBehaviour:
       - e534d76c-e936-43e4-8f56-0dfb1c3e1bde
       nodeValues:
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|_ForceSetAvatar
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ForceSetAvatar
       - unityObjectValue: {fileID: 0}
         stringValue: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
@@ -170,7 +171,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|_ForceSetAvatar
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ForceSetAvatar
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid
       uid: 162161ee-c9d2-40cf-8277-a517acbee879
       position: {x: 1189.004, y: 713.2231}
@@ -184,7 +185,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|_ForceSetAvatar
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|ForceSetAvatar
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|1
       - unityObjectValue: {fileID: 0}
