@@ -26,6 +26,9 @@
     },
     "com.llealloo.audiolink": {
       "version": "2.1.0"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
     }
   },
   "locked": {
@@ -86,6 +89,10 @@
     },
     "com.llealloo.audiolink": {
       "version": "2.1.0",
+      "dependencies": {}
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
       "dependencies": {}
     }
   }
