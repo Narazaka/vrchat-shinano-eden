@@ -8940,6 +8940,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1167202153}
     - target: {fileID: 467691428474914290, guid: 0507200247eee8043a0e081c6f605663, type: 3}
+      propertyPath: defaultVolume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 467691428474914290, guid: 0507200247eee8043a0e081c6f605663, type: 3}
       propertyPath: screenTargets.Array.size
       value: 1
       objectReference: {fileID: 0}
