@@ -20,6 +20,12 @@
     },
     "net.ureishi.qvpen": {
       "version": "3.3.8"
+    },
+    "idv.jlchntoz.vvmw": {
+      "version": "1.4.8"
+    },
+    "com.llealloo.audiolink": {
+      "version": "2.1.0"
     }
   },
   "locked": {
@@ -64,6 +70,23 @@
       "dependencies": {
         "com.vrchat.worlds": "^3.5.0"
       }
+    },
+    "idv.jlchntoz.vrcw-foundation": {
+      "version": "0.0.37",
+      "dependencies": {
+        "com.vrchat.worlds": "3.x.x"
+      }
+    },
+    "idv.jlchntoz.vvmw": {
+      "version": "1.4.8",
+      "dependencies": {
+        "com.vrchat.worlds": "3.x.x",
+        "idv.jlchntoz.vrcw-foundation": "0.0.x >=0.0.36"
+      }
+    },
+    "com.llealloo.audiolink": {
+      "version": "2.1.0",
+      "dependencies": {}
     }
   }
 }
